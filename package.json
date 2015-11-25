@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/mitchdenny/hello-typescript/issues"
   },
-  "homepage": "https://github.com/mitchdenny/hello-typescript#readme"
+  "homepage": "https://github.com/mitchdenny/hello-typescript#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.9.2",
+    "typescript": "^1.6.2"
+  }
 }
