@@ -1,0 +1,19 @@
+{
+  "name": "hello-typescript",
+  "version": "1.0.0",
+  "description": "Just a little sandbox for playing with TypeScript.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitchdenny/hello-typescript.git"
+  },
+  "author": "Mitch Denny <mitch@mitchdenny.com> (http://mitchdenny.com/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mitchdenny/hello-typescript/issues"
+  },
+  "homepage": "https://github.com/mitchdenny/hello-typescript#readme"
+}
