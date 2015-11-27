@@ -25,12 +25,12 @@ async function turnoverDish(dish: Dish): Promise<Dish> {
 
 var dirtyDish = new Dish('cup');
 
-var process = async (dirtyDish) => {
+var doWork = async (dirtyDish) => {
 	var washedDish = await washDish(dirtyDish);
 	var driedDish = await dryDish(washedDish);
 	return await turnoverDish(driedDish);		
 };
 
-var cleanDish = process(dirtyDish).then((dish) => {
+var cleanDish = doWork(dirtyDish).then((dish) => {
 	console.log('done!');
 });
